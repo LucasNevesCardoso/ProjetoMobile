@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+h2{
+    font-style: italic;
+    color: black;
+}
+#cabecalho{
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid red 2px;
+    height: 60PX;
+    border-radius: 20px
+}
+#botaocima{
+    background-image:url('imagens/botaocima.png');
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#botaobaixo{
+    background-image:url('imagens/botaobaixo.png');
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#botaodireita{
+    background-image:url('imagens/botaodireita.png');
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#botaoesquerda{
+    background-image:url('imagens/botaoesquerda.png');
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#botoescamera{
+    text-align: center;
+    width: 50%;
+    height: 120px;
+    display: flex;
+}
+#botoesdirecao{
+    text-align: center;
+    width: 50%;
+    height: 120px;
+}
+#camera{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 1%;
+    height: 200px;
+    border: solid red 2px;
+    border-radius: 50px;
+}
+#botoes{
+    margin-top: 10%;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.horizontal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; /* Altura do controle */
+  }
+
+.slider-horizontal::-webkit-slider-thumb {
+    appearance: none;
+    width: 20px; /* Largura do botão */
+    height: 20px; /* Altura do botão */
+    border-radius: 50%;
+    border: solid black 1px;
+    background: rgb(255, 255, 255); /* Cor do botão */
+    cursor: pointer;
+    margin-top: -5px; /* Ajuste vertical para centralizar */
+  }
+  .slider-horizontal{
+      margin-left: 10%;
+    width: 100px; /* Largura do controle */
+    -webkit-appearance: none;
+    height: 10px; /* Altura do controle */
+    border: solid black 1px;
+    border-radius: 5px;
+    background: rgb(255, 0, 0);
+    margin-top: 50%
+  }
+#volume {
+    width: 100px;
+    margin-left: -30px; /* Largura do controle */
+    -webkit-appearance: none;
+    height: 10px; /* Altura do controle */
+    border: solid black 1px;
+    border-radius: 5px;
+    background: rgb(255, 0, 0); 
+    margin-top: 27%;
+    transform: rotate(-0.25turn);
+}
+#volume::-webkit-slider-thumb{
+    appearance: none;
+    width: 22px; 
+    height: 22px; 
+    border-radius: 50%;
+    border: solid black 1px;
+    background: rgb(255, 255, 255); 
+  }
+.identificabotao{
+    text-align: center;
+    width: 200px;
+    height: 60px;
+    margin-left: 5%;
+    border: solid red 2px;
+}
+.identificacam{
+    margin-right: 5%;
+    text-align: center;
+    width: 200px;
+    height: 60px;
+    margin-left: 10%;
+    border: solid red 2px;
+}
+#camebotao{
+    margin-top: 20px;
+    display: flex;
+}
+  
